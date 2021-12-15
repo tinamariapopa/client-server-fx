@@ -1,0 +1,6 @@
+hibernate.connection.url=jdbc:postgresql://localhost:5432/library
+dialect=org.hibernate.dialect.PostgresSQL
+hibernate.connection.username=postgres
+hibernate.connection.password=admin
+hibernate.connection.driver_class=org.postgresql.Driver
+hibernate.hbm2ddl.auto=update

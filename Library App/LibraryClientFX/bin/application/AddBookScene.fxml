@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="main-scene" stylesheets="@scenes.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddBookController">
+   <children>
+      <Text fill="#d70f0f" layoutX="196.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="main-scene-title" text="Add Book" textAlignment="CENTER" wrappingWidth="208.587890625">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Text>
+      <Label layoutX="36.0" layoutY="91.0" styleClass="main-scene-title" stylesheets="@scenes.css" text="Title:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="142.0" styleClass="main-scene-title" stylesheets="@scenes.css" text="Author(s):">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="200.0" styleClass="main-scene-title" stylesheets="@scenes.css" text="Publication Year:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="247.0" styleClass="main-scene-title" stylesheets="@scenes.css" text="Publisher: ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="298.0" styleClass="main-scene-title" stylesheets="@scenes.css" text="Nr. of pages: ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="titleTextField" layoutX="97.0" layoutY="94.0" prefHeight="29.0" prefWidth="489.0" />
+      <TextField fx:id="authorsTextField" layoutX="156.0" layoutY="145.0" prefHeight="29.0" prefWidth="430.0" />
+      <TextField fx:id="publicationYearTextField" layoutX="224.0" layoutY="203.0" prefHeight="28.0" prefWidth="86.0" />
+      <TextField fx:id="publisherTextField" layoutX="149.0" layoutY="249.0" prefHeight="29.0" prefWidth="445.0" />
+      <TextField fx:id="numberOfPagesTextField" layoutX="187.0" layoutY="300.0" prefHeight="29.0" prefWidth="74.0" />
+      <Button layoutX="249.0" layoutY="338.0" mnemonicParsing="false" onAction="#addBook" styleClass="add-book-button" stylesheets="@scenes.css" text="ADD" textAlignment="CENTER">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="23.0" layoutY="28.0" mnemonicParsing="false" onAction="#loadPreviousScene" styleClass="transparent-button" text="&lt;- BACK" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="main-scene" stylesheets="@scenes.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <Text fill="#d70f0f" layoutX="132.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What do you want to do?" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font></Text>
+      <Button alignment="TOP_CENTER" layoutX="23.0" layoutY="83.0" mnemonicParsing="false" onAction="#loadAllBooksScene" prefHeight="107.0" prefWidth="554.0" styleClass="reader-scene-button-books" text="View All Books" textFill="WHITE">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Button alignment="TOP_CENTER" contentDisplay="TOP" layoutX="223.0" layoutY="219.0" maxHeight="198.0" mnemonicParsing="false" onAction="#loadAddBookScene" prefHeight="167.0" prefWidth="135.0" styleClass="librarian-scene-button-add-book" stylesheets="@scenes.css" textFill="WHITE">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Label layoutX="246.0" layoutY="201.0" text="Add Book">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="23.0" layoutY="28.0" mnemonicParsing="false" onAction="#loadMainScene" styleClass="transparent-button" text="&lt;- BACK" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

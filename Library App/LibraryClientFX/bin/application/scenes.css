@@ -1,0 +1,51 @@
+.main-scene {
+	-fx-background-color: rgb(250, 250, 210);
+}
+
+.main-scene-button {
+	-fx-background-color: rgb(255, 194, 28);
+}
+
+.main-scene-title {
+	-fx-font-weight: bold;
+}
+
+.reader-scene-button-books {
+	-fx-background-image: url("../resources/all-books.jpg") no-repeat scroll 0 0 transparent;
+	-fx-background-position: center;
+	-fx-font-size: 25;
+}
+
+.reader-scene-button-review {
+	-fx-background-image: url("../resources/review.jpg") no-repeat scroll 0 0 transparent;
+	-fx-background-position: center;
+    -fx-background-size: 100%;
+}
+
+.reader-scene-title {
+	-fx-font-weight: bold;
+}
+
+.librarian-scene-button-add-book {
+	-fx-background-image: url("../resources/add_book.png") no-repeat scroll 0 0 transparent;
+	-fx-background-position: center;
+    -fx-background-size: 100%;
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-border: none;
+    -fx-cursor: pointer;
+    -fx-overflow: hidden;
+    -fx-outline: none;
+}
+
+.add-book-button {
+	-fx-background-color: green;
+}
+
+.transparent-button {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-background-repeat: no-repeat;
+    -fx-cursor: pointer;
+    -fx-overflow: hidden;
+}

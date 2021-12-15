@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="main-scene" stylesheets="@scenes.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <Text fill="#d70f0f" layoutX="167.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="main-scene-title" text="Choose Role" textAlignment="CENTER">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Text>
+      <Button layoutX="179.0" layoutY="124.0" mnemonicParsing="false" onAction="#loadReaderScene" prefHeight="91.0" prefWidth="243.0" styleClass="main-scene-button" stylesheets="@scenes.css" text="Reader" textAlignment="CENTER" textFill="#964e1a" wrapText="true">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Button layoutX="179.0" layoutY="256.0" mnemonicParsing="false" onAction="#loadLibrarianScene" prefHeight="91.0" prefWidth="243.0" styleClass="main-scene-button" stylesheets="@scenes.css" text="Librarian" textAlignment="CENTER" textFill="#964e1a" wrapText="true">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
